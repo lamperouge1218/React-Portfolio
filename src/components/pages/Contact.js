@@ -39,7 +39,6 @@ export default function Contact() {
                   name="name"
                   class="form-control"
                   id="exampleFormControlInput3"
-                  placeholder="First and Last"
                   onChange={handleInputChange}
                 />
                 <label for="exampleFormControlInput3" class="form-label">
@@ -49,9 +48,11 @@ export default function Contact() {
               <div class="form-floating mb-3">
                 <input
                   type="email"
+                  value={emailAddress}
+                  name="emailAddress"
                   class="form-control"
                   id="exampleFormControlInput1"
-                  placeholder="name@example.com"
+                  onChange={handleInputChange}
                 />
                 <label for="exampleFormControlInput1" class="form-label">
                   Email Address
@@ -60,9 +61,12 @@ export default function Contact() {
               <div class="form-floating mb-3">
                 <textarea
                   type="text"
+                  value={body}
+                  name="body"
                   class="form-control h-25"
                   id="exampleFormControlTextarea1"
                   rows="3"
+                  onChange={handleInputChange}
                 />
                 <label for="exampleFormControlTextarea1" class="form-label">
                   Type Your Message!
