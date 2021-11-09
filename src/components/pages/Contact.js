@@ -31,11 +31,12 @@ export default function Contact() {
             </p>
           </div>
           <div class="col-md-10 mx-auto col-lg-5">
-            <form class="p-4 p-md-5 border rounded-3 bg-light">
+            <form class="p-4 p-md-5 rounded-3 bg-dark">
               <div class="form-floating mb-3">
                 <input
                   type="text"
-                  name={name}
+                  value={name}
+                  name="name"
                   class="form-control"
                   id="exampleFormControlInput3"
                   placeholder="First and Last"
@@ -58,7 +59,7 @@ export default function Contact() {
               </div>
               <div class="form-floating mb-3">
                 <textarea
-                  type="password"
+                  type="text"
                   class="form-control h-25"
                   id="exampleFormControlTextarea1"
                   rows="3"
@@ -68,9 +69,9 @@ export default function Contact() {
                 </label>
               </div>
               <button
-                class="w-100 btn btn-lg btn-primary"
+                class="w-100 btn btn-lg btn-success"
                 type="submit"
-                onSubmit={handleFormSubmit}
+                onClick={handleFormSubmit}
               >
                 Submit
               </button>
