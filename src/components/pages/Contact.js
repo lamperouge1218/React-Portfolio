@@ -1,22 +1,84 @@
-import React from "react";
+import React, { useState } from "react";
 
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [emailAddress, setEmailAddress] = useState("");
+  const [body, setBody] = useState("");
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    return name === "name" ? setName(value) : setEmailAddress(value);
+  };
+
+  const handleFormSubmit = (e) => {
+    e.preventDefault();
+    alert(`Thanks for contacting me, ${name}! I'll get back to you soon!`);
+    setName("");
+    setEmailAddress("");
+    setBody("");
+  };
+
   return (
     <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+      <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+        <div class="row align-items-center g-lg-5 py-5">
+          <div class="col-lg-7 text-center text-lg-start">
+            <h1 class="display-4 fw-bold lh-1 mb-3">Contact Me!</h1>
+            <p class="col-lg-10 fs-4">
+              Input your full name, email address, and a short message, and I
+              will get back to you as soon as possible! Thanks for checking out
+              my page!
+            </p>
+          </div>
+          <div class="col-md-10 mx-auto col-lg-5">
+            <form class="p-4 p-md-5 border rounded-3 bg-light">
+              <div class="form-floating mb-3">
+                <input
+                  type="text"
+                  name={name}
+                  class="form-control"
+                  id="exampleFormControlInput3"
+                  placeholder="First and Last"
+                  onChange={handleInputChange}
+                />
+                <label for="exampleFormControlInput3" class="form-label">
+                  Name
+                </label>
+              </div>
+              <div class="form-floating mb-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="name@example.com"
+                />
+                <label for="exampleFormControlInput1" class="form-label">
+                  Email Address
+                </label>
+              </div>
+              <div class="form-floating mb-3">
+                <textarea
+                  type="password"
+                  class="form-control h-25"
+                  id="exampleFormControlTextarea1"
+                  rows="3"
+                />
+                <label for="exampleFormControlTextarea1" class="form-label">
+                  Type Your Message!
+                </label>
+              </div>
+              <button
+                class="w-100 btn btn-lg btn-primary"
+                type="submit"
+                onSubmit={handleFormSubmit}
+              >
+                Submit
+              </button>
+              <hr class="my-4" />
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

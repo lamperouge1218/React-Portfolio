@@ -1,22 +1,118 @@
 import React from "react";
+import teamGen from "../../assets/images/TeamGeneratorScreenshot.PNG";
+import fitTrack from "../../assets/images/FitnessTrackerScreenshot.PNG";
+import noteTaker from "../../assets/images/NoteTakerScreenshot.PNG";
+import packRat from "../../assets/images/packratscreenshot.PNG";
+import budgTrack from "../../assets/images/budgettrackerscreenshot.PNG";
+import dailyPlanner from "../../assets/images/plannerscreenshot.PNG";
 
 export default function Portfolio() {
   return (
-    <div>
-      <h1>My Work</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img src={teamGen} class="card-img-top" alt="TeamGenScreenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Team Generator</h5>
+            <p class="card-text">TeamGenDescription</p>
+            <a
+              href="https://www.youtube.com/watch?v=CcbbgRdlYAo"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img
+            src={fitTrack}
+            class="card-img-top"
+            alt="FitnessTrackerScreenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Fitness Tracker</h5>
+            <p class="card-text">FitnessTrackerDescription</p>
+            <a
+              href="https://radiant-hamlet-33556.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img src={noteTaker} class="card-img-top" alt="NoteTakerScreenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Note Taker App</h5>
+            <p class="card-text">NoteTakerDescription</p>
+            <a
+              href="https://protected-eyrie-71903.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img src={packRat} class="card-img-top" alt="PackRatScreenshot" />
+          <div class="card-body">
+            <h5 class="card-title">Pack Rat</h5>
+            <p class="card-text">PackRatDescription</p>
+            <a
+              href="https://lamperouge1218.github.io/Pack-Rat/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img
+            src={budgTrack}
+            class="card-img-top"
+            alt="BudgetTrackerScreenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Budget Tracker App</h5>
+            <p class="card-text">BudgetTrackerDescription</p>
+            <a
+              href="https://hidden-taiga-71157.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+        <div class="card m-2" style={{ width: "18rem" }}>
+          <img
+            src={dailyPlanner}
+            class="card-img-top"
+            alt="DailyPlannerScreenshot"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Daily Planner App</h5>
+            <p class="card-text">DailyPlannerDescription</p>
+            <a
+              href="https://lamperouge1218.github.io/Daily-Planner/"
+              target="_blank"
+              rel="noreferrer"
+              class="btn btn-primary"
+            >
+              See this Project!
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
