@@ -1,11 +1,11 @@
 import React from "react";
 import { HashRouter, Route, Link } from "react-router-dom";
-import Header from "./components/navbar/Header";
+import PortfolioContainer from "./components/PorftolioContainer";
 
 function App() {
   return (
     <div>
-      <Header />
+      <PortfolioContainer />
     </div>
   );
 }

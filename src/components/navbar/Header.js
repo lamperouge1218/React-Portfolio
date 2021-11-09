@@ -6,7 +6,11 @@ import "./style.css";
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#">
+      <a
+        class="navbar-brand"
+        href="#about"
+        onClick={() => handlePageChange("About")}
+      >
         Phil Bohn's Portfolio
       </a>
       <button
@@ -23,17 +27,29 @@ export default function Header({ currentPage, handlePageChange }) {
       <div class="collapse navbar-collapse" id="navbarToggler8">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link" href="#about">
+            <a
+              class="nav-link"
+              href="#about"
+              onClick={() => handlePageChange("About")}
+            >
               About
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#portfolio">
+            <a
+              class="nav-link"
+              href="#portfolio"
+              onClick={() => handlePageChange("Portfolio")}
+            >
               Work
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#contact">
+            <a
+              class="nav-link"
+              href="#contact"
+              onClick={() => handlePageChange("Contact")}
+            >
               Contact
             </a>
           </li>
