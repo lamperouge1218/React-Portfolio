@@ -8,7 +8,7 @@ export default function Header({ currentPage, handlePageChange }) {
     <nav class="navbar navbar-expand-lg navbar-light">
       <a
         class="navbar-brand"
-        href="#about"
+        href="#/"
         onClick={() => handlePageChange("About")}
       >
         Phil Bohn's Portfolio
@@ -32,7 +32,7 @@ export default function Header({ currentPage, handlePageChange }) {
               href="#about"
               onClick={() => handlePageChange("About")}
             >
-              About
+              About Me
             </a>
           </li>
           <li class="nav-item">

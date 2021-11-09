@@ -1,0 +1,7 @@
+:root {
+  --lightblue: #5dade2;
+}
+
+body {
+  background-color: var(--lightblue);
+}
