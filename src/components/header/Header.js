@@ -11,7 +11,7 @@ export default function Header({ currentPage, handlePageChange }) {
         href="#/"
         onClick={() => handlePageChange("About")}
       >
-        Phil Bohn's Portfolio
+        Phil Bohn
       </a>
       <button
         class="navbar-toggler"
