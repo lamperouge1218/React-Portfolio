@@ -5,16 +5,16 @@ import "./style.css";
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav className="navbar navbar-expand-lg navbar-light">
       <a
-        class="navbar-brand fs-2 fw-bold"
+        className="navbar-brand fs-2 fw-bold"
         href="#/"
         onClick={() => handlePageChange("About")}
       >
         Phil Bohn
       </a>
       <button
-        class="navbar-toggler"
+        className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
         data-bs-target="#navbarToggler8"
@@ -22,40 +22,40 @@ export default function Header({ currentPage, handlePageChange }) {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarToggler8">
-        <ul class="navbar-nav">
-          <li class="nav-item">
+      <div className="collapse navbar-collapse" id="navbarToggler8">
+        <ul className="navbar-nav">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               href="#about"
               onClick={() => handlePageChange("About")}
             >
               About Me
             </a>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               href="#portfolio"
               onClick={() => handlePageChange("Portfolio")}
             >
               Work
             </a>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               href="#contact"
               onClick={() => handlePageChange("Contact")}
             >
               Contact
             </a>
           </li>
-          <li class="nav-item">
+          <li className="nav-item">
             <a
-              class="nav-link"
+              className="nav-link"
               href="#resume"
               onClick={() => handlePageChange("Resume")}
             >

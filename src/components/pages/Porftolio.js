@@ -9,18 +9,18 @@ import dailyPlanner from "../../assets/images/plannerscreenshot.PNG";
 export default function Portfolio() {
   return (
     <div>
-      <h1 class="text-center fw-bold">Check Out Some of My Work</h1>
-      <p class="text-center fw-bold">
+      <h1 className="text-center fw-bold">Check Out Some of My Work</h1>
+      <p className="text-center fw-bold">
         Click on the buttons to open a page to the associated project!
       </p>
 
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="card m-2" style={{ width: "18rem" }}>
-            <img src={teamGen} class="card-img-top" alt="TeamGenScreenshot" />
-            <div class="card-body">
-              <h5 class="card-title">Team Generator</h5>
-              <p class="card-text">
+      <div className="container">
+        <div className="row justify-content-around">
+          <div className="card m-2" style={{ width: "18rem" }}>
+            <img src={teamGen} className="card-img-top" alt="TeamGenScreenshot" />
+            <div className="card-body">
+              <h5 className="card-title">Team Generator</h5>
+              <p className="card-text">
                 This app runs from the integrated terminal and allows for
                 dynamic HTML creation.
               </p>
@@ -28,7 +28,7 @@ export default function Portfolio() {
                 href="https://www.youtube.com/watch?v=CcbbgRdlYAo"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -36,21 +36,21 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Team-Generator"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
             </div>
           </div>
-          <div class="card m-2 my-3" style={{ width: "18rem" }}>
+          <div className="card m-2 my-3" style={{ width: "18rem" }}>
             <img
               src={fitTrack}
-              class="card-img-top"
+              className="card-img-top"
               alt="FitnessTrackerScreenshot"
             />
-            <div class="card-body">
-              <h5 class="card-title">Fitness Tracker</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Fitness Tracker</h5>
+              <p className="card-text">
                 This app, deployed to Heroku, uses database management to store
                 catalogued workouts from the user and return stats based on work
                 done.
@@ -59,7 +59,7 @@ export default function Portfolio() {
                 href="https://radiant-hamlet-33556.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -67,21 +67,21 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Fitness-Tracker"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
             </div>
           </div>
-          <div class="card m-2 my-3" style={{ width: "18rem" }}>
+          <div className="card m-2 my-3" style={{ width: "18rem" }}>
             <img
               src={noteTaker}
-              class="card-img-top"
+              className="card-img-top"
               alt="NoteTakerScreenshot"
             />
-            <div class="card-body">
-              <h5 class="card-title">Note Taker App</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Note Taker App</h5>
+              <p className="card-text">
                 This app is a simple note taker utilizing LocalStorage to
                 persist user input over multiple notes.
               </p>
@@ -89,7 +89,7 @@ export default function Portfolio() {
                 href="https://protected-eyrie-71903.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -97,19 +97,19 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Note-Taker-App"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
             </div>
           </div>
         </div>
-        <div class="row justify-content-around">
-          <div class="card m-2 my-3" style={{ width: "18rem" }}>
-            <img src={packRat} class="card-img-top" alt="PackRatScreenshot" />
-            <div class="card-body">
-              <h5 class="card-title">Pack Rat</h5>
-              <p class="card-text">
+        <div className="row justify-content-around">
+          <div className="card m-2 my-3" style={{ width: "18rem" }}>
+            <img src={packRat} className="card-img-top" alt="PackRatScreenshot" />
+            <div className="card-body">
+              <h5 className="card-title">Pack Rat</h5>
+              <p className="card-text">
                 This app, the first of the cohort projects, is dseigned to use
                 APIs to gather and display information, as well as using
                 LocalStorage for the item packing list.
@@ -118,7 +118,7 @@ export default function Portfolio() {
                 href="https://lamperouge1218.github.io/Pack-Rat/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -126,21 +126,21 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Pack-Rat"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
             </div>
           </div>
-          <div class="card m-2 my-3" style={{ width: "18rem" }}>
+          <div className="card m-2 my-3" style={{ width: "18rem" }}>
             <img
               src={budgTrack}
-              class="card-img-top"
+              className="card-img-top"
               alt="BudgetTrackerScreenshot"
             />
-            <div class="card-body">
-              <h5 class="card-title">Budget Tracker App</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Budget Tracker App</h5>
+              <p className="card-text">
                 This PWA, utilizing cache and indexedDB, allows for tracking of
                 daily/monthly/weekly budgets and shows a dynamically updating
                 graph.
@@ -149,7 +149,7 @@ export default function Portfolio() {
                 href="https://hidden-taiga-71157.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -157,21 +157,21 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Budget-Tracker"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
             </div>
           </div>
-          <div class="card m-2 my-3" style={{ width: "18rem" }}>
+          <div className="card m-2 my-3" style={{ width: "18rem" }}>
             <img
               src={dailyPlanner}
-              class="card-img-top"
+              className="card-img-top"
               alt="DailyPlannerScreenshot"
             />
-            <div class="card-body">
-              <h5 class="card-title">Daily Planner App</h5>
-              <p class="card-text">
+            <div className="card-body">
+              <h5 className="card-title">Daily Planner App</h5>
+              <p className="card-text">
                 This app is a simple usage of LocalStorage and Moment.js to
                 change HTML and CSS dynamically depending on the time of day.
               </p>
@@ -179,7 +179,7 @@ export default function Portfolio() {
                 href="https://lamperouge1218.github.io/Daily-Planner/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary my-2"
+                className="btn btn-primary my-2"
               >
                 See this Project!
               </a>
@@ -187,7 +187,7 @@ export default function Portfolio() {
                 href="https://github.com/lamperouge1218/Daily-Planner"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                className="btn btn-primary"
               >
                 See the Repo!
               </a>
