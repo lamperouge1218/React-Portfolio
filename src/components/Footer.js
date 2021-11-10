@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Footer() {
   return (
-    <footer class="py-3 mt-4 bg-dark bg-gradient">
+    <footer class="py-3 mt-4 bg-dark bg-gradient footer-style">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
         <li class="nav-item">
           <a

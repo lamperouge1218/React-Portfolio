@@ -7,7 +7,14 @@ export default function Contact() {
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
-    return name === "name" ? setName(value) : setEmailAddress(value);
+
+    if (name === "name") {
+      setName(value);
+    } else if (name === "emailAddress") {
+      setEmailAddress(value);
+    } else if (name === "body") {
+      setBody(value);
+    }
   };
 
   const handleFormSubmit = (e) => {
@@ -64,11 +71,11 @@ export default function Contact() {
                   value={body}
                   name="body"
                   class="form-control h-25"
-                  id="exampleFormControlTextarea1"
+                  id="exampleFormControlTextarea2"
                   rows="3"
                   onChange={handleInputChange}
                 />
-                <label for="exampleFormControlTextarea1" class="form-label">
+                <label for="exampleFormControlTextarea2" class="form-label">
                   Type Your Message!
                 </label>
               </div>

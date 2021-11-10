@@ -8,7 +8,10 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <PortfolioContainer />
+      <div class="positioning">
+        <PortfolioContainer />
+      </div>
+<div></div>
       <Footer />
     </div>
   );

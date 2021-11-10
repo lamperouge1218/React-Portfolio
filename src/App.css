@@ -2,6 +2,11 @@
   --lightblue: #5dade2;
 }
 
+#root {
+  position: relative;
+  min-height: 100vh;
+}
+
 body {
   background-color: var(--lightblue);
 }
@@ -9,4 +14,15 @@ body {
 .card {
   background-color: #ff00ea5d;
   color: rgb(27, 27, 31);
+}
+
+.positioning {
+  padding-bottom: 2.5rem;
+}
+
+.footer-style {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  right: 0;
 }
