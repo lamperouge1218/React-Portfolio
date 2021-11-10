@@ -33,7 +33,12 @@ export default function Resume() {
           <p>
             Follow the link below to reach a downloadable copy of my resume!
           </p>
-          <a href="#" className="icon-link">
+          <a
+            href="https://drive.google.com/file/d/1ly0Mtge9fm0HU-zxZAS59vmRmklUvFPc/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer"
+            className="icon-link"
+          >
             Download My Resume
           </a>
         </div>

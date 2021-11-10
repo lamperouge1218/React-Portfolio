@@ -34,9 +34,8 @@ export default function Contact() {
           <div className="col-lg-7 text-center text-lg-start">
             <h1 className="display-4 fw-bold lh-1 mb-3">Contact Me!</h1>
             <p className="col-lg-10 fs-4">
-              Input your full name, email address, and a short message, and I
-              will get back to you as soon as possible! Thanks for checking out
-              my page!
+              Contact me at philbohn1791@gmail.com or fill out the form to the
+              right to send me a message!
             </p>
           </div>
           <div className="col-md-10 mx-auto col-lg-5">
