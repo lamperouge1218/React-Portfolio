@@ -25,6 +25,8 @@ export default function Contact() {
     setBody("");
   };
 
+  // TODO: Make it such that the form cannot be submitted with empty values and displays messages in README
+
   return (
     <div>
       <div class="container col-xl-10 col-xxl-8 px-4 py-5">
