@@ -6,29 +6,27 @@ export default function Resume() {
       <h2 class="pb-2 border-bottom">Proficiencies</h2>
       <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
         <div class="feature col">
-          <div class="feature-icon bg-primary bg-gradient">
+          <div class="feature-icon bg-success bg-gradient">
             <svg class="bi" width="1em" height="1em"></svg>
           </div>
           <h2>Front-End</h2>
           <p>
-            Paragraph of text beneath the heading to explain the heading. We'll
-            add onto it with another sentence and probably just keep going until
-            we run out of words.
+            On front-end, I am familiar with the following tech: HTML, CSS,
+            JavaScript, JQuery, responsive design, React, and Bootstrap.
           </p>
         </div>
         <div class="feature col">
-          <div class="feature-icon bg-primary bg-gradient">
+          <div class="feature-icon bg-danger bg-gradient">
             <svg class="bi" width="1em" height="1em"></svg>
           </div>
           <h2>Back-End</h2>
           <p>
-            Paragraph of text beneath the heading to explain the heading. We'll
-            add onto it with another sentence and probably just keep going until
-            we run out of words.
+            On back-end, I am familiar with the following tech: APIs, Node,
+            Express, MySQL/Sequelize, MongoDB/Mongoose, REST, and GraphQL.
           </p>
         </div>
         <div class="feature col">
-          <div class="feature-icon bg-primary bg-gradient">
+          <div class="feature-icon bg-warning bg-gradient">
             <svg class="bi" width="1em" height="1em"></svg>
           </div>
           <h2>My Resume</h2>
@@ -36,7 +34,7 @@ export default function Resume() {
             Follow the link below to reach a downloadable copy of my resume!
           </p>
           <a href="#" class="icon-link">
-            Call to action
+            Download My Resume
           </a>
         </div>
       </div>

@@ -7,7 +7,7 @@ export default function Header({ currentPage, handlePageChange }) {
   return (
     <nav class="navbar navbar-expand-lg navbar-light">
       <a
-        class="navbar-brand"
+        class="navbar-brand fs-2 fw-bold"
         href="#/"
         onClick={() => handlePageChange("About")}
       >

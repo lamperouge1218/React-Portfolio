@@ -28,9 +28,17 @@ export default function Portfolio() {
                 href="https://www.youtube.com/watch?v=CcbbgRdlYAo"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Team-Generator"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
@@ -51,9 +59,17 @@ export default function Portfolio() {
                 href="https://radiant-hamlet-33556.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Fitness-Tracker"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
@@ -73,9 +89,17 @@ export default function Portfolio() {
                 href="https://protected-eyrie-71903.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Note-Taker-App"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
@@ -94,9 +118,17 @@ export default function Portfolio() {
                 href="https://lamperouge1218.github.io/Pack-Rat/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Pack-Rat"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
@@ -117,9 +149,17 @@ export default function Portfolio() {
                 href="https://hidden-taiga-71157.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Budget-Tracker"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
@@ -139,9 +179,17 @@ export default function Portfolio() {
                 href="https://lamperouge1218.github.io/Daily-Planner/"
                 target="_blank"
                 rel="noreferrer"
-                class="btn btn-primary"
+                class="btn btn-primary my-2"
               >
                 See this Project!
+              </a>
+              <a
+                href="https://github.com/lamperouge1218/Daily-Planner"
+                target="_blank"
+                rel="noreferrer"
+                class="btn btn-primary"
+              >
+                See the Repo!
               </a>
             </div>
           </div>
