@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { validateEmail } from "../../utils/helpers";
 
 export default function Contact() {
   const [name, setName] = useState("");
@@ -17,15 +18,35 @@ export default function Contact() {
     }
   };
 
-  const handleFormSubmit = (e) => {
-    e.preventDefault();
-    alert(`Thanks for contacting me, ${name}! I'll get back to you soon!`);
+  // const handleFormSubmit = (e) => {
+  //   e.preventDefault();
+  //   alert(`Thanks for contacting me, ${name}! I'll get back to you soon!`);
+  //   setName("");
+  //   setEmailAddress("");
+  //   setBody("");
+  // };
+
+  // TODO: Make it such that the form cannot be submitted with empty values and displays messages in README
+
+  const handleFormSubmit = (event) => {
+    event.preventDefault();
+
+    if (!validateEmail(emailAddress)) {
+      alert("Email is invalid. Please enter a valid email address.");
+
+      return;
+    }
+    if (name === "" || emailAddress === "" || body === "") {
+      alert("Please fill out required fields.");
+      return;
+    }
+
+    alert(`Thanks for your message, ${name}! I'll get back to you soon!`);
+
     setName("");
     setEmailAddress("");
     setBody("");
   };
-
-  // TODO: Make it such that the form cannot be submitted with empty values and displays messages in README
 
   return (
     <div>
