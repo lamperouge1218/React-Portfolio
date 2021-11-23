@@ -17,7 +17,11 @@ export default function Portfolio() {
       <div className="container">
         <div className="row justify-content-around">
           <div className="card m-2" style={{ width: "18rem" }}>
-            <img src={teamGen} className="card-img-top" alt="TeamGenScreenshot" />
+            <img
+              src={teamGen}
+              className="card-img-top"
+              alt="TeamGenScreenshot"
+            />
             <div className="card-body">
               <h5 className="card-title">Team Generator</h5>
               <p className="card-text">
@@ -80,13 +84,14 @@ export default function Portfolio() {
               alt="NoteTakerScreenshot"
             />
             <div className="card-body">
-              <h5 className="card-title">Note Taker App</h5>
+              <h5 className="card-title">Prequel</h5>
               <p className="card-text">
-                This app is a simple note taker utilizing LocalStorage to
-                persist user input over multiple notes.
+                This MERN-stack app is designed to have independent content
+                creators upload content for visibility to industry
+                professionals.
               </p>
               <a
-                href="https://protected-eyrie-71903.herokuapp.com/"
+                href="https://thawing-castle-85641.herokuapp.com/"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary my-2"
@@ -94,7 +99,7 @@ export default function Portfolio() {
                 See this Project!
               </a>
               <a
-                href="https://github.com/lamperouge1218/Note-Taker-App"
+                href="https://github.com/lamperouge1218/prequel"
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-primary"
@@ -106,7 +111,11 @@ export default function Portfolio() {
         </div>
         <div className="row justify-content-around">
           <div className="card m-2 my-3" style={{ width: "18rem" }}>
-            <img src={packRat} className="card-img-top" alt="PackRatScreenshot" />
+            <img
+              src={packRat}
+              className="card-img-top"
+              alt="PackRatScreenshot"
+            />
             <div className="card-body">
               <h5 className="card-title">Pack Rat</h5>
               <p className="card-text">
