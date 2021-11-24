@@ -1,14 +1,14 @@
 import React from "react";
 import teamGen from "../../assets/images/TeamGeneratorScreenshot.PNG";
 import fitTrack from "../../assets/images/FitnessTrackerScreenshot.PNG";
-import noteTaker from "../../assets/images/NoteTakerScreenshot.PNG";
+import prequelScreen from "../../assets/images/prequelmainpage.PNG";
 import packRat from "../../assets/images/packratscreenshot.PNG";
 import budgTrack from "../../assets/images/budgettrackerscreenshot.PNG";
 import dailyPlanner from "../../assets/images/plannerscreenshot.PNG";
 
 export default function Portfolio() {
   return (
-    <div>
+    <div className="mb-5">
       <h1 className="text-center fw-bold">Check Out Some of My Work</h1>
       <p className="text-center fw-bold">
         Click on the buttons to open a page to the associated project!
@@ -79,7 +79,7 @@ export default function Portfolio() {
           </div>
           <div className="card m-2 my-3" style={{ width: "18rem" }}>
             <img
-              src={noteTaker}
+              src={prequelScreen}
               className="card-img-top"
               alt="NoteTakerScreenshot"
             />
